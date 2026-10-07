@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light surfaces become the default dark surfaces. -->
+    <color name="background_light">#ff121212</color>
+    <color name="background_material_light">#ff121212</color>
+    <color name="background_device_default_light">#ff121212</color>
+    <color name="background_floating_material_light">#ff2c2c2c</color>
+    <color name="background_floating_device_default_light">#ff2c2c2c</color>
+    <color name="notification_material_background_color">#ff1e1e1e</color>
+    <color name="button_material_light">#ff3a3a3c</color>
+
+    <!-- Bars that were light grey. -->
+    <color name="primary_material_light">#ff1e1e1e</color>
+    <color name="primary_material_settings_light">#ff1e1e1e</color>
+    <color name="primary_dark_material_light">#ff121212</color>
+    <color name="primary_dark_material_settings_light">#ff121212</color>
+    <color name="secondary_material_settings_light">#ff2c2c2c</color>
+
+    <!--
+      These stay light so darkened system surfaces keep light text. Switch
+      labels do not use them; they follow colorForeground via the selector in
+      res/color/primary_text_disable_only_material_light.xml.
+    -->
+    <color name="foreground_material_light">#ffffffff</color>
+    <color name="bright_foreground_light">#ffffffff</color>
+    <color name="bright_foreground_light_disabled">#80ffffff</color>
+    <color name="dim_foreground_light">#ffbdbdbd</color>
+    <color name="dim_foreground_light_disabled">#80bdbdbd</color>
+    <color name="primary_text_default_material_light">#ffffffff</color>
+    <color name="secondary_text_default_material_light">#b3ffffff</color>
+    <color name="notification_default_color_light">#b3ffffff</color>
+    <!-- Default accent for notification icons and action labels. Stock is #757575. -->
+    <color name="notification_default_color">#ffffffff</color>
+    <!--
+      Stock bright_foreground_dark aliases background_light. Darkening that
+      background would otherwise turn white-on-dark text and icons black.
+    -->
+    <color name="bright_foreground_dark">#ffffffff</color>
+</resources>

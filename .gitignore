@@ -1,0 +1,22 @@
+# Personal app data pulled from the phone
+backups/
+
+# Factory images are large and come from Xiaomi
+firmware/
+*.tgz
+*.img
+*.zip
+
+# Magisk app, patcher binaries, and boot images
+root/
+
+# Personal scripts. The public ones are listed below.
+scripts/*
+!scripts/charge-test.sh
+!scripts/flash-stock.sh
+
+# Theme build outputs and the local debug signing key
+theme/dark/build/
+theme/dark/debug.keystore
+*.apk
+*.idsig

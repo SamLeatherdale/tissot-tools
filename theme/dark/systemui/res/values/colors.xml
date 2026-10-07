@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_shade_background_color">#ff121212</color>
+    <color name="notification_guts_bg_color">#ff1e1e1e</color>
+    <color name="smart_reply_button_background">#ff2c2c2c</color>
+    <color name="notification_material_background_dimmed_color">#cc121212</color>
+    <!-- SystemUI keeps its own copy of the light-theme text colors. -->
+    <color name="primary_text_default_material_light">#ffffffff</color>
+    <color name="secondary_text_default_material_light">#b3ffffff</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_gear_color">#ffbdbdbd</color>
+</resources>

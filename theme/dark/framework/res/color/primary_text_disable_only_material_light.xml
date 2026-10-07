@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Stock points this at the foreground_material_light color, which this theme
+  turns white. Switch and checkbox labels use it. Resolve the theme attribute
+  instead, so Settings stays white and light apps with white cards stay black.
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:color="?android:attr/colorForeground" android:alpha="0.26" />
+    <item android:color="?android:attr/colorForeground" />
+</selector>

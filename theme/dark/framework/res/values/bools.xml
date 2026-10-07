@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Lets notification accents lighten against the dark background. -->
+    <bool name="config_enableNightMode">true</bool>
+</resources>
